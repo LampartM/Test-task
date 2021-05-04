@@ -196,6 +196,12 @@ hr {
   transition: transform .3s, -webkit-transform .3s;
 }
 
+.side-nav .side-nav--right .btn span {
+  color: #023a5c;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
 .side-nav .side-nav--right .open img {
   -webkit-transform: rotateZ(180deg);
           transform: rotateZ(180deg);
@@ -203,11 +209,6 @@ hr {
 
 .side-nav .side-nav--right .open span {
   opacity: 0;
-  visibility: hidden;
-}
-
-.side-nav .side-nav--right span {
-  color: #023a5c;
 }
 
 .open {
